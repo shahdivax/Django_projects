@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('space', '0001_initial'),
+        ("space", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='spaceship',
-            name='date',
+            model_name="spaceship",
+            name="date",
             field=models.CharField(max_length=20),
         ),
     ]
